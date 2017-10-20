@@ -3,7 +3,7 @@
 pkg=${1}
 
 function help {
-  echo "Usage: basename $0 <package name>"
+  echo "Usage: $(basename $0) <package name>"
   exit 1
 }
 
