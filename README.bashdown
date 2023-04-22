@@ -1,0 +1,24 @@
+# RIP
+
+RIP Installs Packages, or, R Installer of Packages
+
+Command line R package installer inspired by Python's "pip" tool.
+
+This is currently an EXPERIMENTAL project, so you should probably avoid using it in production unless you're happy to deal with some bugs.
+
+## Usage
+
+`rip` isn't a direct reimplementation of pip but for R, but it does draw heavily from the key features of that tool.
+
+This enables both R users as well as admins of R systems to perform useful package installation tasks.
+For building new systems or working on specific projects, this can be a huge time saver.
+
+```bash
+rip --help
+```
+
+## License
+
+`rip` is made available under the MIT license.
+
+See the `LICENSE` file for more.
