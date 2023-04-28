@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "rip"
+name = "pirp"
 version = "0.1.0"
 description = "pip-like package installation for R"
 authors = ["Mark Sellors <github@5vcc.com>"]
@@ -15,4 +15,4 @@ build-backend = "poetry.core.masonry.api"
 
 
 [tool.poetry.scripts]
-rip = "rip:main"
+pirp = "pirp:main"

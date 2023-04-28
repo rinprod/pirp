@@ -9,16 +9,16 @@ build:
 	poetry build
 
 tidy:
-	black rip/
-	pylint rip/
-	mypy --strict rip
+	black pirp/
+	pylint pirp/
+	mypy --strict pirp
 
 test:
 	python3 -m coverage run -m unittest
 	python3 -m coverage report
 
 version:
-	sed -i "s/^__version__ = .*$$/__version__ = \"$(MASTER_VERSION)\"/g" rip/version.py
+	sed -i "s/^__version__ = .*$$/__version__ = \"$(MASTER_VERSION)\"/g" pirp/version.py
 
 publish:
 	poetry publish
